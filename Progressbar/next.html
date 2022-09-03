@@ -9,8 +9,11 @@
 </head>
 <body>
     <div class="container">
-        <label for="progress2">ProgressBar:</label>
-        <progress id="progress2" value="50" max="100">12%</progress>
+        <div class="progress-container">
+            <div class="progress-bar">
+
+            </div>
+        </div>
         <div class="heading">Let's get Started
             <h6 id="sub">Add yor details (As per your registered card)</h6>
         </div>
@@ -18,7 +21,7 @@
             <div class="card-details">
             <div class="card-box">
                 <span class="details">Place where Driving License was issued</span>
-                <input type="text" class="nameinput" placeholder="Enter Place name">
+                <input type="text" class="nameinput"  placeholder="Enter Place name" onkeyup="charCount(this)">
             </div>
             <div class="card-box">
                 <span class="details">Issued year of License</span>
@@ -46,6 +49,6 @@
         </form>
 
     </div>
-    <script src="/index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
