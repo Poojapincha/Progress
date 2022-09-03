@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+body{
+    color:black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#05073a,#dc0606ca);
+    padding:10px;
+    
+}
+
+.container{
+    max-width: 500px;
+    width: 50%;
+    padding:25px 30px;
+    border: 25px;
+    background-color:white;
+    border-radius: 15px;
+}
+.container .heading{
+    font-size: 25px;
+    font-weight:bolder;
+    position: relative;
+    text-align: center;
+    padding:0 0 20px 0;
+    color: lightcoral;
+
+
+
+}
+#sub{
+    color: gray;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.container .heading::before{
+    content: "";
+    width: 100%;
+    background-color: blanchedalmond;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 1px;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.card-box input{
+    padding: 10px;
+    color: gray;
+    border-color: none;
+    background-color: rgb(218, 213, 213);
+    margin-top: 5px;
+    border-radius: 15px;
+    border: rgb(218, 213, 213);
+    
+}
+fieldset {
+    overflow: hidden
+  }
+  
+  .box {
+    float: left;
+    clear: none;
+ 
+  }
+  
+  label {
+    float: left;
+    clear: none;
+   display: block;
+    padding: 0px 1em 0px 8px;
+  }
+  
+  input[type=radio],
+  input.radio {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+  }
+  .card-box select{
+      margin-top: 5px;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: rgb(218, 213, 213);
+      border: rgb(218, 213, 213);
+      color: gray;
+    
+  }
+  .btn{
+    width: 20%;
+    text-align: center;
+    background-color: lightcoral;
+      border-radius: 10px;
+      font-size: 20px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+}
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  fieldset{
+      background-color: rgb(218, 213, 213);
+      padding: 10px;
+      border-radius: 15px;
+      border: rgb(218, 213, 213);
+      color: gray;
+    
+  }
